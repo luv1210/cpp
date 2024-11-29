@@ -31,13 +31,13 @@ class Student
     }
 
 };
-float student :: ctotal(float eng,float math,float science){
+float Student:: ctotal(float eng,float math,float science){
     return eng+math+science;
 }
 int main()
 {
-    student s1;
-    s1.take data();
-    s1.show data();
+    Student s1;
+    s1.takedata();
+    s1.showdata();
 
 }
