@@ -1,0 +1,24 @@
+#include<iostream>
+using namespace std;
+ class Shape
+ {
+    public:
+   void area(int a)
+    {
+        cout<<"the area of square:"<<a*a<<endl;
+    }
+   void area(int l,int b)
+    {
+        cout<<"the area of rectangle:"<<l*b<<endl;
+    }
+    void area(double pi,int r)
+    {
+        cout<<"area of circle:"<<pi*r<<endl;
+    }
+ };
+ int main(){
+    class Shape obj;
+    obj.area(5);
+    obj.area(6,9);
+    obj.area(3.14,10);
+ }
