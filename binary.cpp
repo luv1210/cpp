@@ -21,7 +21,7 @@ class Complex
         t.y=y-z.y;
         return t;
   }
-  void printdata()
+  void printdata() 
   {
     cout<<"value of x:"<<x<<endl;
     cout<<"value of y:"<<y<<endl;
