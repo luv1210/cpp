@@ -4,15 +4,15 @@ int main(){
     for(int i=0;i,5;i++){
         if(i==0||i==4){
             for(int j=0;j<5;j++){
-                cout<<" *";
+                cout<<"     *    ";
             }
         }else{
             for(int j=0;j<5;j++){
                 if(j==0||j==4){
-                    cout<<" *";
+                    cout<<"    *    ";
                 }
             else{
-                cout<<" ";
+                cout<<"";
             }
             cout<<endl;
         }

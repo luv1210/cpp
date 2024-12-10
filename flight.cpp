@@ -2,7 +2,7 @@
 using namespace std;
 
 class DATA
-{
+{ 
     private:
     int flightnumber;
     char destination[50];
