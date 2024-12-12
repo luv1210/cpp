@@ -21,5 +21,4 @@ class Derive:public Base{
 int main(){
     Derive s;
     s.printdata();
-    
 }
