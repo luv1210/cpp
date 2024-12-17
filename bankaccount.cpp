@@ -72,9 +72,9 @@ int main()
 { 
   class Bank b1; 
   Account user[3] = { 
-      {123, "darshik", 5000}, 
-      {456, "amit", 6000}, 
-      {789, "rutvik", 5000}, 
+      {123, "luv", 5000}, 
+      {456, "hetu", 6000}, 
+      {789, "zeel", 5000}, 
  
   }; 
  
