@@ -48,5 +48,16 @@ class Restraurent{
   int returndish(){
     return dish;
   }
+  int totalprice(int price){
+   gst= (price*18)/100;
+   return gst;
+}
+  void underline(){
+    cout<<"--------------------------------------";
+  }
 
 };
+
+int main(){
+  int price
+}
